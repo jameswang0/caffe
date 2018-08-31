@@ -1,0 +1,14 @@
+net: "after/q4/model/train_val.prototxt"
+test_iter: 24
+test_interval: 96
+base_lr: 0.0001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 960
+display: 1920
+max_iter: 1920
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 96
+snapshot_prefix: "after/q4/model/he"
+solver_mode: GPU
